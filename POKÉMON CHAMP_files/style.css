@@ -9,7 +9,7 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-color: lightskyblue;/*#bebebe;*/
+	background-color: #bebebe;
     overflow: hidden;
     
 }
@@ -83,20 +83,19 @@ body{
 	margin-bottom:0px;
 	height: 428px;
 	width:100%;
-    background-color: pink;
     background-image: url(BGchart.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 95% 95%;
+    background-size: 96% 100%;
 
 }
 
-#bg{
+/*#bg{
 	display:inline-flex;
 	margin-left:auto;
 	margin-right:auto;
 	z-index:0;
-}
+}*/
 
 .fade{
 	transition: filter .0s ease-in-out;
@@ -123,8 +122,105 @@ body{
 }
 
 /*Can't use the class for some reason so I gave every .fade img an extra ID so I can give them a better image resolution*/ /*resolution*/
-#pika, #brendan, #moon, #hikari {
-width: 100%;
+/*images get displayed width/2 - 1px to compensate for slight BG chart resizing */
+
+#leaf {
+    width: 147px;
+}
+
+#redyoung {
+    width: 113px;
+}
+
+#crys {
+    width: 120px;
+}
+
+#gold
+{
+    
+}
+
+#lyra
+{
+    width: 132px;
+}
+
+#brendan {
+width: 99px;
+}
+
+#may
+{
+    width: 119px;
+}
+
+#lucas
+{
+    width: 121px;
+}
+
+#hikari {
+width: 128px;
+}
+
+#touko
+{
+    width: 125px;
+}
+
+#touya
+{
+    width: 119px;
+}
+
+#mei
+{
+    width: 144px;
+}
+
+#kyohei
+{
+    width: 144px;
+}
+
+#calem
+{
+
+}
+
+#serena
+{
+
+}
+
+#sun
+{
+   
+}
+
+#moon {
+    width: 139px;
+}
+
+#redadult
+{
+ 
+}
+
+#victor
+{
+    width: 124px;
+}
+
+#gloria
+{
+    width: 110px;
+}
+
+#pika
+{
+    width: 138px;
 }
 
 /*Ipad browser does not recognize width so we gotta find a different solution*/
@@ -134,14 +230,13 @@ width: 100%;
 	bottom: 0px;
 	z-index:1;
 	max-width: 100%;
-    width: 9%; /*resolution*/
+    width: 9%;/*resolution*/
     min-width: 9%;/*resolution*/
 }
 
 #img1{
 	left:4%;
 	z-index:1;
-    background-color: red;
 }
 
 #img2{
@@ -181,7 +276,6 @@ width: 100%;
 #img9{
 	left:42%;
 	z-index:1;
-    background-color: rgba(0, 0, 0, 0.4);
 }
 
 #img10{
@@ -255,8 +349,43 @@ width: 100%;
 	height:67px;
 	/*width:1400px;*/
     width: 100%;
-    background-color: aquamarine;
 }
+
+a:link {
+  text-decoration: none;
+    color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+p {
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+#credit {
+    color: black;
+    display: -webkit-flex;
+	display:flex;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	margin-bottom:30px;
+	height:9px;
+    /*width:1400px;*/
+    width: 100%;
+}
+
 
 #disclaimer{
 	display: -webkit-flex;
@@ -276,7 +405,31 @@ width: 100%;
 	margin-left:auto;
 	margin-right:auto;
 	z-index:1;
-    background-color: orange;
+    height: 40px;
+}
+
+#credits{
+	display:inline-flex;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:1;
+    height: 20px;
+}
+
+#disclaim{
+	display:inline-flex;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:1;
+    height: 20px;
+    color: white;
+}
+
+#version {
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 1em;
 }
 
 /*MOBILE*/
@@ -294,7 +447,7 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-color: red;
+	 lor: red;
     overflow: scroll;
 }
 
