@@ -90,10 +90,9 @@ body{
 }
 
 .fade{
-	transition: filter .1s ease-in-out;
-	-moz-transition: filter .1s ease-in-out;
-	-webkit-transition: filter .1s ease-in-out;*/
-    width: 50%;
+	transition: filter .0s ease-in-out;
+	-moz-transition: filter .0s ease-in-out;
+	-webkit-transition: filter .0s ease-in-out;*/
 }
 
 .fade:hover{
@@ -118,7 +117,7 @@ body{
 	position:absolute;
 	bottom: 0px;
 	z-index:1;
-	max-width:100%;
+	max-width:50%;
 }
 
 #img1{
