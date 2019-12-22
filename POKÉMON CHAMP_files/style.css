@@ -9,7 +9,8 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-color: /*#bebebe;*/ blue; /*gray*/
+	background-color: lightskyblue;/*#bebebe;*/
+    overflow: hidden;
 }
 
 #outer{
@@ -33,7 +34,8 @@ body{
 	margin-top: 20px;
 	margin-bottom:20px;
 	height: 147px;
-	width:1400px;
+    /*width:1400px;*/
+    width: 100%;
 }
 
 #titleart{
@@ -79,8 +81,13 @@ body{
 	margin-top:0px;
 	margin-bottom:0px;
 	height: 428px;
-	width:1400px;
+	width:100%;
     background-color: pink;
+    background-image: url(BGchart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95% 95%;
+
 }
 
 #bg{
@@ -172,7 +179,7 @@ width: 100%;
 #img9{
 	left:42%;
 	z-index:1;
-    background-color: yellow;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 #img10{
@@ -244,7 +251,8 @@ width: 100%;
 	margin-right:auto;
 	margin-top:10px;
 	height:67px;
-	width:1400px;
+	/*width:1400px;*/
+    width: 100%;
     background-color: aquamarine;
 }
 
@@ -257,7 +265,8 @@ width: 100%;
 	margin-top:15px;
 	margin-bottom:30px;
 	height:9px;
-	width:1400px;
+    /*width:1400px;*/
+    width: 100%;
 }
 
 #footerart{
