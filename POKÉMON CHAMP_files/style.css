@@ -9,8 +9,7 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-color: lightskyblue;/*#bebebe;*/
-    overflow: hidden;
+	background-color: #d3d3d3; /*gray*/
 }
 
 #outer{
@@ -18,10 +17,13 @@ body{
 	position:absolute;
 	height:100%;
 	width:100%;
+
+
 }
 #inner{
 	display: table-cell;
 	vertical-align:middle;
+
 }
 
 /*1) header: title and info/descboxes*/
@@ -34,8 +36,7 @@ body{
 	margin-top: 20px;
 	margin-bottom:20px;
 	height: 147px;
-    /*width:1400px;*/
-    width: 100%;
+	width:1400px;
 }
 
 #titleart{
@@ -81,13 +82,7 @@ body{
 	margin-top:0px;
 	margin-bottom:0px;
 	height: 428px;
-	width:100%;
-    background-color: pink;
-    background-image: url(BGchart.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 95% 95%;
-
+	width:1400px;
 }
 
 #bg{
@@ -98,22 +93,15 @@ body{
 }
 
 .fade{
-	transition: filter .0s ease-in-out;
-	-moz-transition: filter .0s ease-in-out;
-	-webkit-transition: filter .0s ease-in-out;*/
+	transition: filter .2s ease-in-out;
+	-moz-transition: filter .2s ease-in-out;
+	-webkit-transition: filter .2s ease-in-out;*/
 }
 
 .fade:hover{
-    display: block /*getting rid of weird streaks in Safari?*/
-	/*opacity:0.5;*/ 
-	-webkit-filter: drop-shadow(2px 0px 0 white) 
-                    drop-shadow(0px 2px 0 white) 
-                    drop-shadow(-2px -0px 0 white) 
-                    drop-shadow(-0px -2px 0 white);
-            filter: drop-shadow(2px 0px 0 white) 
-                    drop-shadow(0px 2px 0 white) 
-                    drop-shadow(-2px -0px 0 white) 
-                    drop-shadow(-0px -2px 0 white);
+	/*opacity:0.5;*/
+	-webkit-filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
+    filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
 }
 
 .fade:active{
@@ -121,124 +109,99 @@ body{
     filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
 }
 
-/*Can't use the class for some reason so I gave every .fade img an extra ID so I can give them a better image resolution*/ /*resolution*/
-#pika, #brendan, #moon, #hikari {
-width: 100%;
-}
-
-/*Ipad browser does not recognize width so we gotta find a different solution*/
-
-#img1,#img2,#img3,#img4,#img5,#img6,#img6,#img7,#img8,#img9,#img10,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18,#img19,#img20,#img21{
+#img1,#img2,#img3,#img4,#img5,#img6,#img6,#img7,#img8,#img9,#img10,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
 	position:absolute;
 	bottom: 0px;
 	z-index:1;
-	max-width: 100%;
-    width: 9%; /*resolution*/
+	max-width:100%;
 }
 
 #img1{
-	left:4%;
+	left:4.5%;
 	z-index:1;
-    background-color: red;
 }
 
 #img2{
-	left:10%;
+	left:11%;
 	z-index:1;
 }
 
 #img3{
-	left:13%;
+	left:14.6%;
 	z-index:1;
 }
 
 #img4{
-	left:19%;
+	left:20.9%;
 }
 
 #img5{
-	left:24%;
+	left:26.3%;
 	z-index:1;
 }
 
 #img6{
-	left:28%;
+	left:30.8%;
 	z-index:1;
 }
 
 #img7{
-	left:33%;
+	left:35.7%;
 	z-index:1;
 }
 
 #img8{
-	left:39%;
+	left:41%;
 	z-index:1;
 }
 
 #img9{
-	left:42%;
+	left:43.5%;
 	z-index:1;
-    background-color: rgba(0, 0, 0, 0.4);
 }
 
 #img10{
-	left:47%;
+	left:48.9%;
 	z-index:1;
 }
 
 #img11{
-	left:51%;
+	left:52.2%;
 	z-index:1;
 }
 
 #img12{
-	left:56%;
+	left:57.7%;
 	z-index:1;
 }
 
 #img13{
-	left:63%;
+	left:64.3%;
 	z-index:1;
 }
 
 #img14{
-	left:66%;
+	left:68%;
 	z-index:1;
 }
 
 #img15{
-	left:72%;
+	left:74.4%;
 	z-index:1;
 }
 
 #img16{
-	left:76%;
+	left:80.4%;
 	z-index:1;
 }
 
 #img17{
-	left:79%;
-	z-index:1;
-}
-
-#img18{
-	left:78%;
-	z-index:1;
-}
-
-#img19{
 	left:83.5%;
 	z-index:1;
 }
 
-#img20{
-	left:89%;
-	z-index:1;
-}
-
-#img21{
-	left:46%;
+#img18{
+	left:83.5%;
 	z-index:1;
 }
 
@@ -251,9 +214,7 @@ width: 100%;
 	margin-right:auto;
 	margin-top:10px;
 	height:67px;
-	/*width:1400px;*/
-    width: 100%;
-    background-color: aquamarine;
+	width:1400px;
 }
 
 #disclaimer{
@@ -265,8 +226,7 @@ width: 100%;
 	margin-top:15px;
 	margin-bottom:30px;
 	height:9px;
-    /*width:1400px;*/
-    width: 100%;
+	width:1400px;
 }
 
 #footerart{
@@ -274,5 +234,4 @@ width: 100%;
 	margin-left:auto;
 	margin-right:auto;
 	z-index:1;
-    background-color: orange;
 }
