@@ -6,7 +6,7 @@ $(document).ready(function(){
 	});
 
 	function hideandshow(toshow){
-		for(var j = 1; j < 22; ++j){
+		for(var j = 1; j < 21; ++j){
 			$('#infobox'+j).hide();
 			$('#descbox'+j).hide();
 		}
