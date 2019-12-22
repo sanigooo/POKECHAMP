@@ -80,6 +80,7 @@ body{
 	margin-bottom:0px;
 	height: 428px;
 	width:1400px;
+    background-color: pink;
 }
 
 #bg{
@@ -113,16 +114,25 @@ body{
     filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
 }
 
+/*Can't use the class for some reason so I gave every .fade img an extra ID so I can give them a better image resolution*/ /*resolution*/
+#pika, #brendan, #moon, #hikari {
+width: 100%;
+}
+
+/*Ipad browser does not recognize width so we gotta find a different solution*/
+
 #img1,#img2,#img3,#img4,#img5,#img6,#img6,#img7,#img8,#img9,#img10,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18,#img19,#img20,#img21{
 	position:absolute;
 	bottom: 0px;
 	z-index:1;
-	max-width:50%;
+	max-width: 100%;
+    width: 9%; /*resolution*/
 }
 
 #img1{
 	left:4%;
 	z-index:1;
+    background-color: red;
 }
 
 #img2{
@@ -162,6 +172,7 @@ body{
 #img9{
 	left:42%;
 	z-index:1;
+    background-color: yellow;
 }
 
 #img10{
@@ -234,6 +245,7 @@ body{
 	margin-top:10px;
 	height:67px;
 	width:1400px;
+    background-color: aquamarine;
 }
 
 #disclaimer{
@@ -253,11 +265,5 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	z-index:1;
+    background-color: orange;
 }
-
-/*Can't use the class for some reason so I gave every .fade img an extra ID so I can give them a better image resolution*/
-#pika, #brendan, #moon, #hikari {
-    width: 50%;
-}
-
-/*Ipad browser does not recognize width so we gotta find a different solution*/
