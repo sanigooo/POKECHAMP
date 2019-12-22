@@ -4,6 +4,10 @@
 3) footer: credits
 */
 
+html,body { height:100%; 
+ padding: 0;
+  margin: 0;}
+
 body{
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -32,11 +36,14 @@ body{
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top: 20px;
+    margin-top:30px;
 	margin-bottom:20px;
-	height: 147px;
     /*width:1400px;*/
     width: 100%;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
 }
 
 #titleart{
@@ -87,6 +94,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 96% 100%;
+    background-color: pink;
 
 }
 
@@ -334,7 +342,7 @@ width: 128px;
 }
 
 #img21{
-	left:0%;
+	left:46%;
 	z-index:100;
 }
 
@@ -349,6 +357,10 @@ width: 128px;
 	height:67px;
 	/*width:1400px;*/
     width: 100%;
+    background-image: url(drag.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto 60%;
 }
 
 a:link {
@@ -398,6 +410,8 @@ p {
 	height:9px;
     /*width:1400px;*/
     width: 100%;
+            background-color: red;
+
 }
 
 #footerart{
@@ -413,7 +427,9 @@ p {
 	margin-left:auto;
 	margin-right:auto;
 	z-index:1;
-    height: 20px;
+    height: 30px;
+    background-color: blue;
+
 }
 
 #disclaim{
@@ -431,6 +447,14 @@ p {
     margin-right: 10px;
     font-size: 1em;
 }
+
+
+.cm {
+    color: white;
+    font-size: 1em;
+    text-align: right;
+}
+
 
 /*MOBILE*/
 
@@ -654,6 +678,7 @@ body{
 	margin-top:10px;
 	height:67px;
 	width:1400px;
+
 }
 
 #disclaimer{
@@ -666,6 +691,7 @@ body{
 	margin-bottom:30px;
 	height:9px;
 	width:1400px;
+    
 }
 
 #footerart{
