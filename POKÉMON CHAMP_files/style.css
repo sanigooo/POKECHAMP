@@ -17,13 +17,10 @@ body{
 	position:absolute;
 	height:100%;
 	width:100%;
-
-
 }
 #inner{
 	display: table-cell;
 	vertical-align:middle;
-
 }
 
 /*1) header: title and info/descboxes*/
@@ -249,4 +246,9 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	z-index:1;
+}
+
+/*Can't use the class for some reason so I gave every .fade img an extra ID so I can give them a better image resolution*/
+#pika, #brendan, #moon, #hikari {
+    width: 50%;
 }
