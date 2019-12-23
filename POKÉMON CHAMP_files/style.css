@@ -92,16 +92,22 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 96% 100%;
-    background-color: pink;
-
 }
 
-/*#bg{
+#measure{
 	display:inline-flex;
-	margin-left:auto;
-	margin-right:auto;
 	z-index:0;
-}*/
+    width: 45px;
+    margin-left:2%;
+    margin-right: auto;
+}
+
+#measure2{
+	display:inline-flex;
+	z-index:0;
+    width: 45px;
+    margin-right: 2%;
+}
 
 .fade{
 	transition: filter .0s ease-in-out;
@@ -341,7 +347,7 @@ width: 128px;
 
 #img21{
 	left:46%;
-	z-index:100;
+	z-index:1000;
 }
 
 /*3) footer: credits*/
@@ -408,7 +414,6 @@ p {
 	height:9px;
     /*width:1400px;*/
     width: 100%;
-            background-color: red;
 
 }
 
@@ -426,8 +431,7 @@ p {
 	margin-right:auto;
 	z-index:1;
     height: 30px;
-    background-color: blue;
-
+    margin-top: -2%;
 }
 
 #disclaim{
@@ -565,6 +569,11 @@ body{
 }
 
 .fade:active{
+	-webkit-filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
+    filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
+}
+    
+.fade:focus{
 	-webkit-filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
     filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
 }
