@@ -351,20 +351,63 @@ width: 128px;
 }
 
 /*3) footer: credits*/
-#footerZone{
+
+#drag{
 	display: -webkit-flex;
 	display:flex;
 	position:relative;
-	margin-left:auto;
-	margin-right:auto;
 	margin-top:10px;
-	height:67px;
-	/*width:1400px;*/
+	height:40px;
     width: 100%;
     background-image: url(drag.png);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: auto 60%;
+    background-size: auto 100%;
+}
+
+#arrows{
+	display:inline-flex;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:1;
+    height: 40px;
+}
+
+#footer {
+    color: black;
+    display: -webkit-flex;
+	display:flex;
+	position:;
+	margin-left:auto;
+	margin-right:auto;
+    width: 100%;
+}
+
+#credits{
+	display:inline-flex;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:1;
+    margin-top: 2%;
+}
+
+#disclaimer{
+ display:inline-flex;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:1;
+    margin-top: 0;
+    color: white;
+}
+
+#version {
+    color: white;
+    margin: 0;
+    padding-right: 1%;
+    padding-bottom: 4%;
+    height: 0px;
+    text-align: right;
+    font-size: 1em;
 }
 
 a:link {
@@ -378,85 +421,15 @@ a:visited {
 }
 
 a:hover {
-  color: blue;
+  color: white;
 }
 
 p {
-    font-family: sans-serif;
+    font-family: tt lakes;
     color: black;
-    font-weight: bold;
+    font-weight:bold;
     font-size: 0.7em;
 }
-
-#credit {
-    color: black;
-    display: -webkit-flex;
-	display:flex;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:15px;
-	margin-bottom:30px;
-	height:9px;
-    /*width:1400px;*/
-    width: 100%;
-}
-
-
-#disclaimer{
-	display: -webkit-flex;
-	display:flex;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:15px;
-	margin-bottom:30px;
-	height:9px;
-    /*width:1400px;*/
-    width: 100%;
-
-}
-
-#footerart{
-	display:inline-flex;
-	margin-left:auto;
-	margin-right:auto;
-	z-index:1;
-    height: 40px;
-}
-
-#credits{
-	display:inline-flex;
-	margin-left:auto;
-	margin-right:auto;
-	z-index:1;
-    height: 30px;
-    margin-top: -2%;
-}
-
-#disclaim{
-	display:inline-flex;
-	margin-left:auto;
-	margin-right:auto;
-	z-index:1;
-    height: 20px;
-    color: white;
-}
-
-#version {
-    color: white;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    font-size: 1em;
-}
-
-
-.cm {
-    color: white;
-    font-size: 1em;
-    text-align: right;
-}
-
 
 /*MOBILE*/
 
