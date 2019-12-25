@@ -36,7 +36,7 @@ body{
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
-    margin-top:30px;
+    margin-top:45px;
 	margin-bottom:20px;
     /*width:1400px;*/
     width: 100%;
@@ -178,7 +178,7 @@ width: 99px;
 }
 
 #hikari {
-width: 128px;
+width: 129px;
 }
 
 #touko
@@ -198,7 +198,7 @@ width: 128px;
 
 #kyohei
 {
-    width: 144px;
+    width: 145px;
 }
 
 #calem
@@ -213,7 +213,7 @@ width: 128px;
 
 #sun
 {
-   
+   width: 118px;
 }
 
 #moon {
@@ -326,7 +326,7 @@ width: 128px;
 }
 
 #img16{
-	left:0%;
+	left:70%;
 	z-index:1;
 }
 
