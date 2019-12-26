@@ -4,9 +4,11 @@
 3) footer: credits
 */
 
-html,body { height:100%; 
- padding: 0;
-  margin: 0;}
+html,body { 
+    height:100%; 
+    width: 100%;
+    padding: 0;
+    margin: 0;}
 
 body{
 	background-size: cover;
@@ -15,7 +17,6 @@ body{
 	-o-background-size: cover;
 	background-color: #bebebe;
     overflow: hidden;
-    
 }
 
 #outer{
@@ -38,7 +39,6 @@ body{
 	margin-right:auto;
     margin-top:45px;
 	margin-bottom:20px;
-    /*width:1400px;*/
     width: 100%;
     background-image: url(logo.png);
     background-repeat: no-repeat;
@@ -51,7 +51,6 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	z-index:2;
-
 }
 
 #infobox1,#infobox2,#infobox3,#infobox4,#infobox5,#infobox6,#infobox7,#infobox8,#infobox9,#infobox10,#infobox11,#infobox12,#infobox13,#infobox14,#infobox15,#infobox16,#infobox17,#infobox18,#infobox19,#infobox20{
@@ -59,6 +58,7 @@ body{
 	z-index:1;
 	display:none;
 	bottom:0px;
+    height: 147px;
 	margin-left:10%;
 }
 
@@ -112,12 +112,10 @@ body{
 .fade{
 	transition: filter .0s ease-in-out;
 	-moz-transition: filter .0s ease-in-out;
-	-webkit-transition: filter .0s ease-in-out;*/
+	-webkit-transition: filter .0s ease-in-out;
 }
 
 .fade:hover{
-    display: block /*getting rid of weird streaks in Safari?*/
-	/*opacity:0.5;*/ 
 	-webkit-filter: drop-shadow(2px 0px 0 white) 
                     drop-shadow(0px 2px 0 white) 
                     drop-shadow(-2px -0px 0 white) 
@@ -129,233 +127,105 @@ body{
 }
 
 .fade:active{
-	-webkit-filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
-    filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
+	-webkit-filter: drop-shadow(2px 0px 0 white) 
+                    drop-shadow(0px 2px 0 white) 
+                    drop-shadow(-2px -0px 0 white) 
+                    drop-shadow(-0px -2px 0 white);
+            filter: drop-shadow(2px 0px 0 white) 
+                    drop-shadow(0px 2px 0 white) 
+                    drop-shadow(-2px -0px 0 white) 
+                    drop-shadow(-0px -2px 0 white);
 }
     
 .fade:focus{
-	-webkit-filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
-    filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
+	-webkit-filter: drop-shadow(2px 0px 0 white) 
+                    drop-shadow(0px 2px 0 white) 
+                    drop-shadow(-2px -0px 0 white) 
+                    drop-shadow(-0px -2px 0 white);
+            filter: drop-shadow(2px 0px 0 white) 
+                    drop-shadow(0px 2px 0 white) 
+                    drop-shadow(-2px -0px 0 white)
+                    drop-shadow(-0px -2px 0 white);
 }
 
-/*Can't use the class for some reason so I gave every .fade img an extra ID so I can give them a better image resolution*/ /*resolution*/
-/*images get displayed width/2 - 1px to compensate for slight BG chart resizing */
+/*Can't use the class for some reason so I gave every .fade img an extra ID so I can give them a better image resolution*/ 
+/*images get displayed with pixel-width/2*/
 
-#leaf {
-    width: 147px;
-}
+#leaf {     width: 147px;}
+#redyoung { width: 120px;}
+#crys {     width: 120px;}
+#gold {     width: 118px;}
+#lyra {     width: 137px;}
+#brendan {  width: 142px;}
+#may {      width: 135px;}
+#lucas {    width: 121px;}
+#hikari {   width: 129px;}
+#touko {    width: 125px;}
+#touya {    width: 119px;}
+#mei {      width: 144px;}
+#kyohei {   width: 145px;}
+#calem {    width: 139px;}
+#serena {   width: 156px;}
+#sun {      width: 118px;}
+#moon {     width: 142px;}
+#redadult {}
+#victor {   width: 124px;}
+#gloria {   width: 110px;}
+#pika {     width: 138px;}
 
-#redyoung {
-    width: 120px;
-}
-
-#crys {
-    width: 120px;
-}
-
-#gold
-{
-    width: 118px;
-}
-
-#lyra
-{
-    width: 137px;
-}
-
-#brendan {
-width: 142px;
-}
-
-#may
-{
-    width: 135px;
-}
-
-#lucas
-{
-    width: 121px;
-}
-
-#hikari {
-width: 129px;
-}
-
-#touko
-{
-    width: 125px;
-}
-
-#touya
-{
-    width: 119px;
-}
-
-#mei
-{
-    width: 144px;
-}
-
-#kyohei
-{
-    width: 145px;
-}
-
-#calem
-{
- width: 139px;
-}
-
-#serena
-{
-width: 156px;
-}
-
-#sun
-{
-   width: 118px;
-}
-
-#moon {
-    width: 142px;
-}
-
-#redadult
-{
- 
-}
-
-#victor
-{
-    width: 124px;
-}
-
-#gloria
-{
-    width: 110px;
-}
-
-#pika
-{
-    width: 138px;
-}
-
-/*Ipad browser does not recognize width so we gotta find a different solution*/
-
-#img1,#img2,#img3,#img4,#img5,#img6,#img6,#img7,#img8,#img9,#img10,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18,#img19,#img20,#img21{
+#img1,#img2,#img3,#img4,#img5,#img6,#img6,#img7,#img8,#img9,#img10,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18,#img19,#img20,#img21 {
 	position:absolute;
 	bottom: 0px;
 	z-index:1;
 	max-width: 100%;
-    width: 9%;/*resolution*/
-    min-width: 9%;/*resolution*/
+    width: 9%;
+    min-width: 9%;
 }
 
-#img1{
-	left:2%;
-	z-index:1;
-}
-
-#img2{
-	left:10%;
-	z-index:1;
-}
-
-#img3{
-	left:16%;
-	z-index:1;
-}
-
-#img4{
-	left:23%;
-}
-
-#img5{
-	left:27%;
-	z-index:1;
-}
-
-#img6{
-	left: 80%;
-	z-index:1;
-}
-
-#img7{
-	left:33%;
-	z-index:1;
-}
-
-#img8{
-	left:39%;
-	z-index:1;
-}
-
-#img9{
-	left:44%;
-	z-index:1;
-}
-
-#img10{
-	left:50%;
-	z-index:1;
-}
-
-#img11{
-	left:55%;
-	z-index:1;
-}
-
-#img12{
-	left:61%;
-	z-index:1;
-}
-
-#img13{
-	left:70%;
-	z-index:1;
-}
-
-#img14{
-	left:82%;
-	z-index:1;
-}
-
-#img15{
-	left:89%;
-	z-index:1;
-}
-
-#img16{
-	left:70%;
-	z-index:1;
-}
-
-#img17{
-	left:0%;
-	z-index:1;
-}
-
-#img18{
-	left:76%;
-	z-index:1;
-}
-
-#img19{
-	left:0%;
-	z-index:1;
-}
-
-#img20{
-	left:0%;
-	z-index:1;
-}
-
-#img21{
-	left:46%;
-	z-index:1000;
-}
+#img1{ left:2%; z-index:1; }
+#img2{ left:10%; z-index:1; }
+#img3{ left:16%; z-index:1; }
+#img4{ left:23%; z-index:1; }
+#img5{ left:27%; z-index:1; }
+#img6{ left:80%; z-index:1; }
+#img7{ left:33%; z-index:1; }
+#img8{ left:39%; z-index:1; }
+#img9{ left:44%; z-index:1; }
+#img10{ left:50%; z-index:1; }
+#img11{ left:55%; z-index:1; }
+#img12{ left:61%; z-index:1; }
+#img13{ left:70%; z-index:1; }
+#img14{ left:82%; z-index:1; }
+#img15{ left:89%; z-index:1; }
+#img16{ left:70%; z-index:1; }
+#img17{ left:0%; z-index:1; }
+#img18{ left:76%; z-index:1; }
+#img19{ left:0%; z-index:1; }
+#img20{ left:0%; z-index:1; }
+#img21{ left:46%; z-index:1000; }
 
 /*3) footer: credits*/
+
+p {
+    font-family: sans-serif, tt lakes;
+    color: black;
+    font-weight:bold;
+    font-size: 0.7em;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
 
 #drag{
 	display: -webkit-flex;
@@ -415,26 +285,6 @@ width: 156px;
     font-size: 1em;
 }
 
-a:link {
-  text-decoration: none;
-    color: black;
-}
-
-a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: white;
-}
-
-p {
-    font-family: sans-serif, tt lakes;
-    color: black;
-    font-weight:bold;
-    font-size: 0.7em;
-}
 
 /*MOBILE*/
 
