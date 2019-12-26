@@ -164,12 +164,12 @@ body{
 }
 
 #brendan {
-width: 99px;
+width: 142px;
 }
 
 #may
 {
-    width: 118px;
+    width: 135px;
 }
 
 #lucas
@@ -276,7 +276,7 @@ width: 156px;
 }
 
 #img6{
-	left: 0%;
+	left: 80%;
 	z-index:1;
 }
 
@@ -316,12 +316,12 @@ width: 156px;
 }
 
 #img14{
-	left:0%;
+	left:82%;
 	z-index:1;
 }
 
 #img15{
-	left:0%;
+	left:89%;
 	z-index:1;
 }
 
@@ -341,12 +341,12 @@ width: 156px;
 }
 
 #img19{
-	left:81%;
+	left:0%;
 	z-index:1;
 }
 
 #img20{
-	left:87%;
+	left:0%;
 	z-index:1;
 }
 
@@ -430,7 +430,7 @@ a:hover {
 }
 
 p {
-    font-family: tt lakes;
+    font-family: sans-serif, tt lakes;
     color: black;
     font-weight:bold;
     font-size: 0.7em;
