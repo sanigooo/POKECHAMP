@@ -15,7 +15,7 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-color: /*#bebebe;*/ red;
+	background-color: #bebebe;
     overflow: hidden;
 }
 
@@ -168,7 +168,7 @@ body{
 #serena {   width: 156px;}
 #sun {      width: 118px;}
 #moon {     width: 142px;}
-#redadult {}
+#redadult { width: 145px;}
 #victor {   width: 124px;}
 #gloria {   width: 110px;}
 #pika {     width: 138px;}
@@ -182,26 +182,26 @@ body{
     min-width: 9%;
 }
 
-#img1{ left:2%; z-index:1; }
-#img2{ left:10%; z-index:1; }
-#img3{ left:16%; z-index:1; }
-#img4{ left:23%; z-index:1; }
-#img5{ left:27%; z-index:1; }
-#img6{ left:80%; z-index:1; }
-#img7{ left:33%; z-index:1; }
-#img8{ left:39%; z-index:1; }
-#img9{ left:44%; z-index:1; }
-#img10{ left:50%; z-index:1; }
-#img11{ left:55%; z-index:1; }
-#img12{ left:61%; z-index:1; }
-#img13{ left:70%; z-index:1; }
-#img14{ left:82%; z-index:1; }
-#img15{ left:89%; z-index:1; }
-#img16{ left:70%; z-index:1; }
-#img17{ left:0%; z-index:1; }
-#img18{ left:76%; z-index:1; }
-#img19{ left:0%; z-index:1; }
-#img20{ left:0%; z-index:1; }
+#img1{ left:0%; z-index:1; }
+#img2{ left:6%; z-index:1; }
+#img3{ left:11%; z-index:1; }
+#img4{ left:17%; z-index:1; }
+#img5{ left:21%; z-index:1; }
+#img6{ left:24%; z-index:1; }
+#img7{ left:30%; z-index:1; }
+#img8{ left:36%; z-index:1; }
+#img9{ left:40%; z-index:1; }
+#img10{ left:43%; z-index:1; }
+#img11{ left:48%; z-index:1; }
+#img12{ left:53%; z-index:1; }
+#img13{ left:60%; z-index:1; }
+#img14{ left:63%; z-index:1; }
+#img15{ left:69%; z-index:1; }
+#img16{ left:73%; z-index:1; }
+#img17{ left:76%; z-index:1; }
+#img18{ left:80%; z-index:1; }
+#img19{ left:84%; z-index:1; }
+#img20{ left:90%; z-index:1; }
 #img21{ left:46%; z-index:1000; }
 
 /*3) footer: credits*/
