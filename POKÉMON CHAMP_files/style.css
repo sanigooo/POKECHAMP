@@ -152,8 +152,8 @@ body{
 /*images get displayed with pixel-width/2*/
 
 #leaf {     width: 147px;}
-#redyoung { width: 120px;}
-#crys {     width: 120px;}
+#redyoung { width: 123px;}
+#crys {     width: 121px;}
 #gold {     width: 118px;}
 #lyra {     width: 137px;}
 #brendan {  width: 142px;}
@@ -161,17 +161,17 @@ body{
 #lucas {    width: 121px;}
 #hikari {   width: 129px;}
 #touko {    width: 125px;}
-#touya {    width: 119px;}
+#touya {    width: 121px;}
 #mei {      width: 144px;}
-#kyohei {   width: 145px;}
+#kyohei {   width: 147px;}
 #calem {    width: 139px;}
 #serena {   width: 156px;}
 #sun {      width: 118px;}
-#moon {     width: 142px;}
+#moon {     width: 139px;}
 #redadult { width: 145px;}
-#victor {   width: 124px;}
+#victor {   width: 130px;}
 #gloria {   width: 110px;}
-#pika {     width: 138px;}
+#pika {     width: 141px;}
 
 #img1,#img2,#img3,#img4,#img5,#img6,#img6,#img7,#img8,#img9,#img10,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18,#img19,#img20,#img21 {
 	position:absolute;
@@ -187,7 +187,7 @@ body{
 #img3{ left:11%; z-index:1; }
 #img4{ left:17%; z-index:1; }
 #img5{ left:21%; z-index:1; }
-#img6{ left:24%; z-index:1; }
+#img6{ left:23%; z-index:1; }
 #img7{ left:30%; z-index:1; }
 #img8{ left:36%; z-index:1; }
 #img9{ left:40%; z-index:1; }
