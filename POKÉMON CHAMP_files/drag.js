@@ -1,8 +1,5 @@
 $(document).ready(function(){
 
-   	/*hover effects for mobile*/
-    document.addEventListener("touchstart", function() {}, true);
-
 	/*disable mouseclicks to avoid annoying image drag for images that don't need drag*/
 	$(".noSelect").mousedown(function(){
     	return false;

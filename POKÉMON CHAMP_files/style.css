@@ -8,7 +8,16 @@ html,body {
     height:100%; 
     width: 100%;
     padding: 0;
-    margin: 0;}
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'tt lakes';
+    src: url('TTLakesCondensed-Bold.woff') format('woff'),
+         url('TTLakesCondensed-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body{
 	background-size: cover;
@@ -208,7 +217,7 @@ body{
 /*3) footer: credits*/
 
 p {
-    font-family: sans-serif, tt lakes;
+    font-family: 'tt lakes';
     color: black;
     font-weight:bold;
     font-size: 0.7em;
@@ -289,7 +298,7 @@ a:hover {
 
 /*MOBILE*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 
 /*table of contents
 1) header: title and info/descboxes
@@ -341,7 +350,6 @@ body{
 	z-index:1;
 	display:none;
 	bottom:0px;
-
 	margin-left:10%;
 }
 
@@ -382,22 +390,43 @@ body{
 }
 
 .fade{
-	transition: filter .2s ease-in-out;
-	-moz-transition: filter .2s ease-in-out;
-	-webkit-transition: filter .2s ease-in-out;*/
+	transition: filter .0s ease-in-out;
+	-moz-transition: filter .0s ease-in-out;
+	-webkit-transition: filter .0s ease-in-out;
 }
 
 .fade:hover{
-	/*opacity:0.5;*/
-	-webkit-filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
-    filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
+	-webkit-filter: drop-shadow(2px 0px 0 white) 
+                    drop-shadow(0px 2px 0 white) 
+                    drop-shadow(-2px -0px 0 white) 
+                    drop-shadow(-0px -2px 0 white);
+            filter: drop-shadow(2px 0px 0 white) 
+                    drop-shadow(0px 2px 0 white) 
+                    drop-shadow(-2px -0px 0 white) 
+                    drop-shadow(-0px -2px 0 white);
 }
 
 .fade:active{
-	-webkit-filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
-    filter: drop-shadow(2px 0px 0 white) drop-shadow(0px 2px 0 white) drop-shadow(-2px -0px 0 white) drop-shadow(-0px -2px 0 white);
+	-webkit-filter: drop-shadow(2px 0px 0 white) 
+                    drop-shadow(0px 2px 0 white) 
+                    drop-shadow(-2px -0px 0 white) 
+                    drop-shadow(-0px -2px 0 white);
+            filter: drop-shadow(2px 0px 0 white) 
+                    drop-shadow(0px 2px 0 white) 
+                    drop-shadow(-2px -0px 0 white) 
+                    drop-shadow(-0px -2px 0 white);
 }
-
+    
+.fade:focus{
+	-webkit-filter: drop-shadow(2px 0px 0 white) 
+                    drop-shadow(0px 2px 0 white) 
+                    drop-shadow(-2px -0px 0 white) 
+                    drop-shadow(-0px -2px 0 white);
+            filter: drop-shadow(2px 0px 0 white) 
+                    drop-shadow(0px 2px 0 white) 
+                    drop-shadow(-2px -0px 0 white)
+                    drop-shadow(-0px -2px 0 white);
+}
 #img1,#img2,#img3,#img4,#img5,#img6,#img6,#img7,#img8,#img9,#img10,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
 	position:absolute;
 	bottom: 0px;
