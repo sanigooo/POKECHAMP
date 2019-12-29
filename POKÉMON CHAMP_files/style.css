@@ -296,13 +296,10 @@ a:hover {
 2) middle: height chart and draggables
 3) footer: credits
 */
-
+    
 body{
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-color: pink;
+    overflow: scroll;
 }
 
 #outer{
@@ -530,118 +527,3 @@ body{
 }
     
 }
-
-/*
-    /*table of contents
-1) header: title and info/descboxes
-2) middle: height chart and draggables
-3) footer: credits
-*/
-
-body{
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-    overflow: scroll;
-}
-
-#outer{
-	display:table;
-	position:absolute;
-	height:100%;
-	width:100%;
-
-
-}
-#inner{
-	display: table-cell;
-	vertical-align:middle;
-
-}
-
-/*1) header: title and info/descboxes*/
-#headerZone{
-	display: -webkit-flex;
-	display:flex;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top: 20px;
-	margin-bottom:20px;
-	height: 147px;
-	width:1400px;
-}
-
-#titleart{
-	display:inline-flex;
-	margin-left:auto;
-	margin-right:auto;
-	z-index:2;
-
-}
-
-#infobox1,#infobox2,#infobox3,#infobox4,#infobox5,#infobox6,#infobox7,#infobox8,#infobox9,#infobox10,#infobox11,#infobox12,#infobox13,#infobox14,#infobox15,#infobox16,#infobox17,#infobox18,#infobox19,#infobox20{
-	display:absolute;
-	z-index:1;
-	display:none;
-	bottom:0px;
-	margin-left:5%;
-}
-
-#descbox1,#descbox2,#descbox3,#descbox4,#descbox5,#descbox6,#descbox7,#descbox8,#descbox9,#descbox10,#descbox11,#descbox12,#descbox13,#descbox14,#descbox15,#descbox16,#descbox17,#descbox18,#descbox19,#descbox20{
-	display:absolute;
-	z-index:1;
-	display:none;
-	bottom:0px;
-	margin-right:5%;
-}
-
-
-/*2) middle: height chart and draggables*/
-#dragZone{
-	display: -webkit-flex;
-	display:flex;
-	position:relative;
-	margin:auto;
-	margin-top:0px;
-	margin-bottom:0px;
-	height: 428px;
-	width:1400px;
-}
-
-/*3) footer: credits*/
-#footerZone{
-	display: -webkit-flex;
-	display:flex;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:10px;
-	height:67px;
-	width:1400px;
-
-}
-
-#disclaimer{
-	display: -webkit-flex;
-	display:flex;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:15px;
-	margin-bottom:30px;
-	height:9px;
-	width:1400px;
-    
-}
-
-#footerart{
-	display:inline-flex;
-	margin-left:auto;
-	margin-right:auto;
-	z-index:1;
-}
-    
-    
-}*/
