@@ -6,7 +6,7 @@ $(document).ready(function(){
 	});
 
 	function hideandshow(toshow){
-		for(var j = 1; j < 21; ++j){
+		for(var j = 1; j < 22; ++j){
 			$('#infobox'+j).hide();
 			$('#descbox'+j).hide();
 		}
@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 	/*enable draggable on the appropriate targets*/
 	var a = 2;
-	$('#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18,#img19,#img20')
+	$('#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18,#img19,#img20,#img21')
 		.draggable({
 			/*makes sure the z-index changes with every drag so the one being dragged is on top*/
 			start: function(event,ui){
