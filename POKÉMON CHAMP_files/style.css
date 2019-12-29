@@ -350,7 +350,7 @@ body{
 	z-index:1;
 	display:none;
 	bottom:0px;
-	margin-left:10%;
+	margin-left:6%;
 }
 
 #descbox1,#descbox2,#descbox3,#descbox4,#descbox5,#descbox6,#descbox7,#descbox8,#descbox9,#descbox10,#descbox11,#descbox12,#descbox13,#descbox14,#descbox15,#descbox16,#descbox17,#descbox18{
@@ -358,8 +358,7 @@ body{
 	z-index:1;
 	display:none;
 	bottom:0px;
-
-	margin-right:10%;
+	margin-right:6%;
 }
 
 #infobox1{
