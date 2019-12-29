@@ -68,7 +68,7 @@ body{
 	display:none;
 	bottom:0px;
     height: 147px;
-	margin-left:10%;
+	margin-left:6%;
 }
 
 #descbox1,#descbox2,#descbox3,#descbox4,#descbox5,#descbox6,#descbox7,#descbox8,#descbox9,#descbox10,#descbox11,#descbox12,#descbox13,#descbox14,#descbox15,#descbox16,#descbox17,#descbox18,#descbox19,#descbox20{
@@ -77,7 +77,7 @@ body{
 	display:none;
 	bottom:0px;
     height: 147px;
-	margin-right:10%;
+	margin-right:6%;
 }
 
 #infobox1{
@@ -308,7 +308,6 @@ a:hover {
     
 body{
     overflow: scroll;
-    background-color: pink;
 }
 
 #outer{
